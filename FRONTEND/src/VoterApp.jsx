@@ -32,6 +32,7 @@ export default function VoterApp() {
   const [allVoters, setAllVoters] = useState([]);
 
   // Load all voters automatically on mount
+  //comment
   useEffect(() => {
     const fetchAllVoters = async () => {
       try {
